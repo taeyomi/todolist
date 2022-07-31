@@ -1,0 +1,88 @@
+@font-face{
+    font-family: "GabiaMaeumgyeol";
+    src:url('./font/GabiaMaeumgyeol.eot');
+    src:url('./font/GabiaMaeumgyeol.woff2') format('woff2'),
+        url('./font/GabiaMaeumgyeol.woff') format('woff'),
+        url('./font/GabiaMaeumgyeol.ttf') format('truetype'),
+        url('./font/GabiaMaeumgyeol.svg#GabiaMaeumgyeol') format('svg'),
+        url('./font/GabiaMaeumgyeol.eot?#iefix') format('embedded-opentype');
+     font-weight: normal;
+     font-style: normal;
+    
+   }
+   *{
+    margin:10;
+    padding:0;
+    box-sizing: border-box;
+ }
+ body{
+  font-family:"GabiaMaeumgyeol";
+  background-color: 
+  #F7EDDB;
+ }
+ 
+ /* 달력 */
+ 
+ .rap {
+    max-width: 750px;
+    padding: 0 1.4rem;
+    margin-top: .3rem;
+  }
+  
+  .dateHead {
+    margin-bottom: .4rem;
+  }
+  
+  .dateHead div {
+    background: #94B49F;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .grid div {
+    padding: .6rem;
+    font-size: .9rem;
+    cursor: pointer;
+  }
+  
+  .dateBoard div {
+    color: #94B49F;
+    font-weight: bold;
+    min-height: 6rem;
+    padding: .5rem .8rem;
+    border-radius: .3rem;
+    border: 4px solid #eee;
+  }
+  
+  .noColor {
+    background: #eee;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  
+  .btn {
+   display: block;
+   width: 20px;
+   height: 20px;
+   border: 3px solid #94B49F;
+   border-width: 3px 3px 0 0;
+   cursor: pointer;
+  }
+  
+  .prevDay {
+    transform: rotate(-135deg);
+  }
+  
+  .nextDay {
+    transform: rotate(45deg);
+  }

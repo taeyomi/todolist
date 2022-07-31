@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GabiaMaeumgyeol';
+  src: url('GabiaMaeumgyeol.eot');
+  src: url('GabiaMaeumgyeol.eot?#iefix') format('embedded-opentype'),
+       url('GabiaMaeumgyeol.svg#GabiaMaeumgyeol') format('svg'),
+       url('GabiaMaeumgyeol.ttf') format('truetype'),
+       url('GabiaMaeumgyeol.woff') format('woff'),
+       url('GabiaMaeumgyeol.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

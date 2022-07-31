@@ -1,0 +1,42 @@
+@font-face{
+  font-family: "GabiaMaeumgyeol";
+  src:url('./font/GabiaMaeumgyeol.eot');
+  src:url('./font/GabiaMaeumgyeol.woff2') format('woff2'),
+      url('./font/GabiaMaeumgyeol.woff') format('woff'),
+      url('./font/GabiaMaeumgyeol.ttf') format('truetype'),
+      url('./font/GabiaMaeumgyeol.svg#GabiaMaeumgyeol') format('svg'),
+      url('./font/GabiaMaeumgyeol.eot?#iefix') format('embedded-opentype');
+   font-weight: normal;
+   font-style: normal;
+  
+ }
+*{
+   margin:10;
+   padding:0;
+   box-sizing: border-box;
+}
+body{
+ font-family:"GabiaMaeumgyeol";
+ background-color: #F7EDDB;
+}
+ 
+.wrap{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%, -50%);
+ color: #94B49F;
+ text-align: center;
+}
+.lg-text{
+ font-size:3rem;
+ font-weight: bold;
+ margin-bottom: 20px;
+ }
+.sm-text{
+ font-size:0.5rem;
+ }
+
+   
+
+ 
